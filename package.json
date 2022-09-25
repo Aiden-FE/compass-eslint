@@ -9,6 +9,13 @@
     "dist",
     "types"
   ],
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "rules",
+    "recommend-rules",
+    "typescript"
+  ],
   "repository": "https://github.com/Aiden-FE/compass-artifact",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
