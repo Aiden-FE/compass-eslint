@@ -1,11 +1,11 @@
 # @compass-aiden/eslint-plugin
 > Recommend eslint config
 
-为什么会有它?
+**为什么会有它?**
 
 统一Eslint代码校验标准
 
-它遵循什么标准?
+**它遵循什么标准?**
 
 将整个Eslint规范分为四层,先后顺序如下,后置规则覆盖前置规则:
 1. airbnb, 业内推荐度极高的标准
@@ -42,6 +42,8 @@ module.exports = {
 `pnpm build` 打包构建
 
 `pnpm lint` 执行代码校验
+
+### 发布
 
 `nrm use npm` 切换源为npm官方源,如是可跳过此步骤
 
