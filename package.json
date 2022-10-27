@@ -1,6 +1,6 @@
 {
   "name": "@compass-aiden/eslint-plugin",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Recommend eslint config",
   "main": "dist/main.cjs.js",
   "author": "Aiden_FE@outlook.com",
