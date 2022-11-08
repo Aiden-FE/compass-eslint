@@ -17,7 +17,7 @@
 
 ## 快速上手
 
-`npm install @compass-aiden/eslint-plugin eslint eslint-plugin-import --save-dev` 在开发环境下安装依赖
+`npm install @compass-aiden/eslint-config eslint eslint-plugin-import --save-dev` 在开发环境下安装依赖
 
 ### Typescript环境使用
 
@@ -30,7 +30,19 @@ module.exports = {
     },
     extends: [
         // typescript使用此配置
-        'plugin:@compass-aiden/recommended-ts',
+        '@compass-aiden/eslint-config/ts',
+    ],
+}
+```
+
+### JavaScript环境使用
+
+更新.eslintrc配置文件:
+```javascript
+// 使用eslint配置
+module.exports = {
+    extends: [
+        '@compass-aiden/eslint-config/js',
     ],
 }
 ```
@@ -54,6 +66,7 @@ module.exports = {
 ## Roadmap
 
 - [x] Support Typescript plugin
+- [x] Support JavaScript plugin
 - [ ] Add issue template
 - [ ] Support Vue3 plugin
 - [ ] Support Vue2 plugin
